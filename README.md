@@ -1,2 +1,2 @@
 # Learning Odin
-Repository of code learning Odin Programming Language
+Repository of code learning the Odin Programming Language. 
