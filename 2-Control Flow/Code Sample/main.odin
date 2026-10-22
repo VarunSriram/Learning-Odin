@@ -101,6 +101,10 @@ main :: proc() {
             fmt.println("No access.")
     }
 
+    /*
+    A type switch allows you to safely check the underlying type of a union or an any variable. 
+    Instead of matching values, the cases match types.
+    */
     event: any = "Hello event"
     switch v in event {
         case string:
